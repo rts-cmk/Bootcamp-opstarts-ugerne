@@ -22,11 +22,11 @@ Målene for de første par uger, her er der tale om introduktion til, og opsamli
 **Det er primært de første 5 punkter vi ser på, dag 1.**
 
 # Om Uddannelsen, regler og husorden
->[Om uddannelsen, regler og husorden](http://github.com/rts-cmk-wi81/regler-og-husorden.md)
+>[Om uddannelsen, regler og husorden](http://github.com/rts-cmk-WI81/regler-og-husorden.md)
 
 
 # Intro til programmer og systemer 
->[programmer og systemer](http://github.com/rts-cmk-wi81/programmer-og-systemer.md)
+>[programmer og systemer](http://github.com/rts-cmk-WI81/programmer-og-systemer.md)
 
 
 

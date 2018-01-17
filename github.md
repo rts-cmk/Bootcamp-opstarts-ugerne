@@ -99,4 +99,4 @@ Her er en online beskrivelse af [Github Markdown](https://guides.github.com/feat
 
 ---
 
-[tilbage til programmer og systemer](http://github.com/rts-cmk-wi81/programmer-og-systemer.md)
+[tilbage til programmer og systemer](http://github.com/rts-cmk-WI81/programmer-og-systemer.md)

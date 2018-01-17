@@ -8,4 +8,4 @@ Se at versions nummeret der gerne skulle dukke op, passer med den version af Nod
 
 ---
 
-[tilbage til programmer og systemer](http://github.com/rts-cmk-wi81/programmer-og-systemer.md)
+[tilbage til programmer og systemer](http://github.com/rts-cmk-WI81/programmer-og-systemer.md)

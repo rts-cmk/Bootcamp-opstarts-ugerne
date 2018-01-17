@@ -66,4 +66,4 @@
 
 ---
 
-[tilbage til Bootcamp forsiden](http://github.com/rts-cmk-wi81/README.md)
+[tilbage til Bootcamp forsiden](http://github.com/rts-cmk-WI81/README.md)

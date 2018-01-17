@@ -12,4 +12,4 @@ Du skal også sørge for at have valgt hvilken version af uddannelsen ud går p�
 
 ---
 
-[tilbage til programmer og systemer](http://github.com/rts-cmk-wi81/programmer-og-systemer.md)
+[tilbage til programmer og systemer](http://github.com/rts-cmk-WI81/programmer-og-systemer.md)
