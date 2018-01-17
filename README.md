@@ -7,6 +7,12 @@ Målene for de første par uger, her er der tale om introduktion til, og opsamli
 1. IT regler
 1. Fotos til studiekort
 1. Intro til programmer og systemer
+   1. 365 LMS
+   1. Elevplan
+   1. Slack
+   1. Github
+   1. NodeJs
+   1. Visual Studio Code
 1. Opsamling og gennemgang af grundlæggende Javascript 
    1. Variabler
    1. Datatyper

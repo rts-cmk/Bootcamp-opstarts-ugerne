@@ -11,9 +11,9 @@ Der er en del programmer, værktøjer og systemer, som vi kommer til at arbejde 
 ---
 * Slack [Bootcamp Slack](slack.md)
 ---
-* NodeJS [Bootcamp NodeJS](NodeJS.md)
----
 * Visual Studio Code: [Bootcamp VSCode](VSCode.md)
+---
+* NodeJS [Bootcamp NodeJS](NodeJS.md)
 ---
 * Github, git : [Bootcamp github](github.md)
 ---

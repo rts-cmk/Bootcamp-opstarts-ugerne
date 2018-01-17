@@ -8,7 +8,7 @@ Angiv dit navn når du får muligheden, og sørg for det er dit rigtige navn, s�
 Det kan anbefales at hente Slack programmet, og der findes også en app til smartphones, hvis man har brug for at være forbundet og mobil samtidigt.
 
 ## ```Opgave:``` besked over Slack
-Send en besked til Jack inde i rts-cmk-wi81 organisationen,bare sig hej eller noget lign.
+Send en besked til Jack inde i rts-cmk-wi81 organisationen, bare sig hej eller noget lign.
 
 
 ## ```Opgave:``` join channels

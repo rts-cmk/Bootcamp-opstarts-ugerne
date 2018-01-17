@@ -36,6 +36,8 @@ https://github.com/Microsoft/Git-Credential-Manager-for-Windows#download-and-ins
 ---
 
 ## ```Opgave:``` igang med github
+#### Mål: at få oprettet et repository og clone det til computeren
+
 Nu hvor du er oprettet på Github, skal du prøve at oprette et repository.
 
 Inde på Githubs side, https://github.com/new, skal du oprette et nyt repo med navnet **igang-med-github**
@@ -53,39 +55,43 @@ Sørg for at placere klonen et sted du let kan finde på din computer.
 Åben Visual Studio Code, og åben den nye mappe der indeholder dit repo.
 
 Læg mærke til at der skal ligge en fil kaldet **.gitignore** samt en fil kaldet **README.md** under filtræet i VSCode.
-Mangler filerne er det en forkert mappe du har åbnet, prøv igen.
+Mangler filerne er det en forkert mappe du har åbnet ... prøv igen.
 
 Tilføj en ny fil, kald den **app.js**
 
 
-tilføj denne console.log linje i toppen af den nye fil:
+tilføj følgende kode-linje i toppen af den nye fil:
 ```javascript
 console.log('Hej verden!');
 ```
 
-her kan man selvfølgelig lige prøve at åbne konsollen i VScode, og skrive **node app** og se om den skriver **Hej verden!**
+her kan man selvfølgelig lige prøve at åbne konsollen i VScode **[ctrl] + [æ]**, og skrive **node app** for at få NodeJS til at køre filen, og se at den skriver **Hej verden!** i VSCode konsollen.
 
 ---
 
 ## ```Opgave:``` Commit og Push
-Hvis der er et rundt badge med et 1-tal, over ikonet til **source control** i visual studio code, så klikkes på ikonet og du kan nu skrive en besked, f.eks. **Første commit!**
+#### Mål: at få synkroniseret det lokale repository med det der ligger online
+Hvis der er et rundt badge med et 1-tal, over ikonet til **source control** i visual studio code, så klikkes på ikonet og du kan nu skrive en besked, f.eks. **Tilføjet app.js**. Alle commit's skal have en besked der beskriver hvad der er ændret.
 
-I listen over ændrede filer (changes) klikkes på plusset der dukker op når musen føres over en fil (gør dette for kun 1 fil).
+I listen over ændrede filer (changes) klikkes på plusset der dukker op når musen føres over en fil (der burde kun være 1 fil lige nu).
 
-klik på de tre ... og vælg **Commit Staged**
+Nu burde der stå **Staged Changes** og under den **app.js**
+
+klik på de tre **[...]** over beskedfeltet, og vælg **Commit Staged**
 
 
 Gå tilbage til browseren, og opdater siden med dit repo. (der burde ikke være nogle ændringer endnu).
 
 
-Commit staged synkroniserer ikke med det online github repo, til det skal vi tilbage i Visual Studio Code, og vælge **Push** fra samme menu hvor **Commit Staged** lå.
+**Commit Staged** synkroniserer ikke med det online github repo, til det skal vi tilbage i VSCode, og vælge **Push** fra samme menu hvor **Commit Staged** lå.
 
-Så kan du prøve at opdatere github siden igen, og se at nu ligger der en app.js.
+Så kan du prøve at opdatere github siden igen, og se at nu ligger der en app.js på dit online repo, yay!
 
 ---
 ## ```Opgave:``` Markdown
+#### Mål: at blive fortrolig med github markdown, der skal benyttes til dokumentation af koder og opgaver
 En af de arbejdsopgaver du kommer til at bruge meget tid på, er at dokumentere og beskrive dine koder. 
-Du skal i **readme.md** filen lave din egen beskrivelse af hvordan du opretter et repository på din github, med den opsætning vi har været igennem her. 
+Du skal i **README.md** filen lave din egen beskrivelse af hvordan du opretter et repository på din github, med den opsætning vi har været igennem her. 
 
 Du vælger selv om du vil sidde i Visual Studio Code, eller om du gør det via browseren på github.com 
 
