@@ -16,4 +16,4 @@ Find vej ind til kanalen "Bootcamp" og skriv en besked i kanalen, f.eks. et "Hej
 
 ---
 
-[tilbage til programmer og systemer](http://github.com/rts-cmk-WI81/programmer-og-systemer.md)
+[tilbage til programmer og systemer](programmer-og-systemer.md)
