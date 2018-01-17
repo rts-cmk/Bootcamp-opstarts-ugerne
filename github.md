@@ -52,6 +52,9 @@ Sørg for at placere klonen et sted du let kan finde på din computer.
 
 Åben Visual Studio Code, og åben den nye mappe der indeholder dit repo.
 
+Læg mærke til at der skal ligge en fil kaldet **.gitignore** samt en fil kaldet **README.md** under filtræet i VSCode.
+Mangler filerne er det en forkert mappe du har åbnet, prøv igen.
+
 Tilføj en ny fil, kald den **app.js**
 
 
@@ -65,7 +68,7 @@ her kan man selvfølgelig lige prøve at åbne konsollen i VScode, og skrive **n
 ---
 
 ## ```Opgave:``` Commit og Push
-Vælg **source control** i visual studio code, og skriv en besked, f.eks. **Første commit!**
+Hvis der er et rundt badge med et 1-tal, over ikonet til **source control** i visual studio code, så klikkes på ikonet og du kan nu skrive en besked, f.eks. **Første commit!**
 
 I listen over ændrede filer (changes) klikkes på plusset der dukker op når musen føres over en fil (gør dette for kun 1 fil).
 
