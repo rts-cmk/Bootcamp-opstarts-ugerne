@@ -50,7 +50,7 @@
    * 9.40 - 10.00
    * 11.30 - 12.00
    * 13.30 - 13.40
-   * Sørg for at passer pausetiderne.
+   * Sørg for at passe pausetiderne.
 
 ---
 
@@ -60,6 +60,7 @@
    * 55 lektioner = anden advarsel 
    * 80 lektioner = udmeldelse
    * det er kun igennem aftale med UE vejledning og kontaktlæreren, der kan laves særaftaler.
+   * Der indkaldes til en samtale ved hver udsendte advarsel, så der kan lægges en plan ud fra hvad der er årsagen til fraværet.
 
 ---
 
