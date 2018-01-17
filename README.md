@@ -3,9 +3,8 @@
 
 Målene for de første par uger, her er der tale om introduktion til, og opsamling af, følgende emner:
 1. Om uddannelsen 
-1. Udlevering af lånepc
 1. IT regler
-1. Fotos til studiekort
+1. Udlevering af lånepc
 1. Intro til programmer og systemer
    1. 365 LMS
    1. Elevplan
@@ -13,6 +12,7 @@ Målene for de første par uger, her er der tale om introduktion til, og opsamli
    1. Github
    1. NodeJs
    1. Visual Studio Code
+1. Fotos til studiekort
 1. Opsamling og gennemgang af grundlæggende Javascript 
    1. Variabler
    1. Datatyper
@@ -28,11 +28,11 @@ Målene for de første par uger, her er der tale om introduktion til, og opsamli
 **Det er primært de første 5 punkter vi ser på, dag 1.**
 
 # Om Uddannelsen, regler og husorden
->[Om uddannelsen, regler og husorden](regler-og-husorden.md)
+>18/01-2018 [Om uddannelsen, regler og husorden](regler-og-husorden.md)
 
 
 # Intro til programmer og systemer 
->[programmer og systemer](programmer-og-systemer.md)
+>18/01-2018 [programmer og systemer](programmer-og-systemer.md)
 
 
 
