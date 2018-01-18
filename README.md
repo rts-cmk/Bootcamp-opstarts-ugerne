@@ -28,23 +28,22 @@ Målene for de første par uger, her er der tale om introduktion til, og opsamli
 **Det er primært de første 5 punkter vi ser på, dag 1.**
 
 # Om Uddannelsen, regler og husorden
->18/01-2018 [Om uddannelsen, regler og husorden](regler-og-husorden.md)
+>18/01-2018 [Om uddannelsen, regler og husorden](./regler-og-husorden.md)
 
 
 # Intro til programmer og systemer 
->18/01-2018 [programmer og systemer](programmer-og-systemer.md)
-
+>18/01-2018 [Programmer og systemer](./programmer-og-systemer.md)
 
 
 # Variabler og Datatyper 
+>19/01-2018 [Variabler](./variabler.md)
+
+
+# Betingelser 
 >link til dokument ... når det er tid ;) 
 
 
 # Operatorer 
->link til dokument ... når det er tid ;) 
-
-
-# Betingelser 
 >link til dokument ... når det er tid ;) 
 
 

@@ -18,10 +18,8 @@
 * Udenad kan du udskrive variabler, så værdierne vises i konsollen.
 * Udenad kan du forklare forskellen på ét og to lighedstegn.
 
+---
 
-
-
-<hr>
 
 ## **Oplæg omkring variabler**
 
@@ -29,9 +27,6 @@ Du får et oplæg, der sætter dig ind i, hvordan man arbejder med variabler i J
 Efter oplægget vil der ligge et **Cheat Sheet** klar til dig (se afsnittet **"Information på nettet"**), der viser de forskellige måder, man kan arbejde med variabler.
 
 ## **Information på nettet om variabler**
-
-Her vil jeg indsætte links til sider, der forklarer **hvordan man arbejder med variabler i Javascript**.
-Hvis du finder nogle gode sider, så sig endelig til. Jeg tilføjer dem gerne her.
 
 **OBS:** Når der her linkes til en kilde på nettet, betyder det IKKE nødvendigvis, at du skal gå ind og lav alt hvad de beder dig om (det kunne jo være en kæmpe tutorial der tager flere dage). Brug siderne som opslagsværk.
 
@@ -56,106 +51,98 @@ https://www.nemprogrammering.dk/Tutorials/javascript-v2/6-datatype.php
 
 ---
 
-## **Øvelser - Variabler**
+# **Øvelser - Variabler**
 
 ## `Øvelse:` Variabler 1
+1. Opret et nyt repository på din github, kald det **Bootcamp**... dette repository kommer til at indeholde alle de forskellige emner vi kommer igennem under bootcamp ugerne
+1. Klon **Bootcamp** til din computer og åben det i VSCode
+1. Opret et nyt dokument kaldet **variabler.js**
 
-*Se bort fra scope (const, var, let, osv).*
-
-1. Læg et tilfældigt navn ned i variablen `navn`.
-
-1. Læg en tilfældig alder ned i variablen `alder`.
-
-1. Definér variablen `tekst` som en string, der indeholder teksten: <br>
-*"Mit navn er `Viggo` og jeg er `30` år gammel".* <br>
-Navnet og alderen i teksten skal komme fra dine variabler.
-
-1. Udskriv `tekst` variablen i konsollen.
-
+Alle øvelserne frem til **Variabler 9** løses i det dokument, du kan eventuelt udkommentere dem efterhånden som de bliver løst (så konsollen ikke bliver alt for uoverskuelig)
 
 
 ## `Øvelse:` Variabler 2
-
-*Se bort fra scope (const, var, let, osv).*
-
-1. Læg tallet 1.25 ned i variablen `moms`.
-
-1. Læg tallet 400 ned i variablen `prisUdenMoms`.
-
-1. Definér variablen `prisMedMoms`. Dens værdi skal være `prisUdenMoms` ganget med `moms`.
-
-1. Udskriv `prisMedMoms` variablen i konsollen.
-
-1. Definér variablen `prisUdenMoms2`. Dens værdi skal være `prisMedMoms` divideret med `moms`.
-
-1. Udskriv `prisUdenMoms2` variablen i konsollen.
-
+1. Opret en variabel kaldet `navn` og tildel den dit eget navn
+1. Udskriv variablen `navn` i konsollen
 
 
 ## `Øvelse:` Variabler 3
+1. Opret en variabel kaldet `alder` og tildel den din alder
+1. Udskriv variablen `alder` i konsollen
 
-*Se bort fra scope (const, var, let, osv).*
 
-1. På **linje 1** i koden, læg tallet **10** ned i variablen `forste`.
 
-1. På **linje 2** i koden, læg tallet **20** ned i variablen `anden`.
+## `Øvelse:` Variabler 4
+Kopier den følgende kodestump og indsæt den i dit variabler.js dokument
+```javascript
+let byNavn = "Roskilde";
+console.log(bynavn);
+```
+1. Kør koden og se hvad konsollen fortæller dig
+1. Ret fejlen i kodestumpen
 
+
+
+## `Øvelse:` Variabler 5
+1. Opret to variabler, kaldet henholdsvis `x` og `y` med værdierne **5** og **10**
+1. Udskriv **summen** af de to variabler i konsollen, hvor det er javascript der udregner summen
+
+
+
+## `Øvelse:` Variabler 6
+1. Som i øvelse 5 oprettes to variabler kaldet `x` og `y` med værdierne **5** og **10**
+1. opret en tredje variabel kaldet `y`, som tildes summen af `x` + `y`
+1. Udskriv indholdet af `y` i konsollen
+
+
+
+## `Øvelse:` Variabler 7
+Kopier følgende kodestump ind i dit **variabler.js** dokument. Du må ikke ændre i koden
+```javascript
+console.log('Hej, jeg hedder ' + mitFornavn + ' ' + mitEfternavn+ ' og jeg er ' + minAlder + ' år');
+```
+1. Løs de fejl der opstår når koden køres, men du må stadig ikke ændre i den indsatte kode 
+1. Kør koden og tjek at resultatet i konsollen udskriver dine værdier
+
+
+## `Øvelse:` Variabler 8
+1. Læg tallet 1,25 ned i variablen `moms`
+1. Læg tallet 400 ned i variablen `prisUdenMoms`
+1. Definér variablen `prisMedMoms`. Dens værdi skal være `prisUdenMoms` ganget med `moms`
+1. Udskriv `prisMedMoms` variablen i konsollen
+1. Definér variablen `prisUdenMoms2`. Dens værdi skal være `prisMedMoms` divideret med `moms`
+1. Udskriv `prisUdenMoms2` variablen i konsollen
+
+
+## `Øvelse:` Variabler 9
+1. Opret en variabel kaldet `forste` og læg tallet **10** ned i variablen
+1. Opret en variabel kaldet `anden` og læg tallet **20** ned i variablen
 1. Du skal nu skrive noget kode, som gør, at **variablernes værdier bytter plads**, dvs. <br>
 at `forste` kommer til at indeholde 20, <br>
 mens `anden` kommer til at indeholde 10. <br>
-**Du må IKKE skrive flere tal i koden efter linje 2**  -  Dvs., efter linje 2 må du ikke bare sætte `forste` til 20  eller  5 * 4, osv. Det ville være snyd ;)
+**Du skal løse opgaven uden at skrive flere tal i koden**
 
-4. Udskriv variablerne `forste` og `anden` i konsollen.
+1. Udskriv variablerne `forste` og `anden` i konsollen
 
-
-
-## `Øvelse:` - Variabler 4 - W3 Schools
-
-Selvom man på W3 Schools kan afvikle javascript direkte på deres side, skal du sørge for, at løsningen ligger i en fil på din harddisk (og i sidste ende som afleveringer på GitHub og Office 365).
-
-* **Øvelse - Variabler 4.1** <br>
-https://www.w3schools.com/js/exercise.asp?filename=exercise_variables1
-
-
-* **Øvelse - Variabler 4.2** <br>
-https://www.w3schools.com/js/exercise.asp?filename=exercise_variables2
+## `Øvelse:` Variabler 10
+1. Opret et dokument kaldet **variabler.md** i dit Bootcamp repository
+1. Benyt markdown til at beskrive hvad en variabel er
+1. Sørg især for at forklare hvordan de deklareres og tildeles en værdi, kom med et eksempel
+1. Beskriv kort hvad følgende datatyper er, og kom med eksempel på hvordan de oprettes
+   1. string
+   1. number
+   1. boolean
+   1. array  --- vent med denne til vi har været igennem array øvelserne.
 
 
-* **Øvelse - Variabler 4.3** <br>
-https://www.w3schools.com/js/exercise.asp?filename=exercise_variables3
+--- 
 
-
-* **Øvelse - Variabler 4.4** <br>
-https://www.w3schools.com/js/exercise.asp?filename=exercise_variables4
-
-
-* **Øvelse - Variabler 4.5** <br>
-https://www.w3schools.com/js/exercise.asp?filename=exercise_variables5
-
-
-* **Øvelse - Variabler 4.6** <br>
-https://www.w3schools.com/js/exercise.asp?filename=exercise_variables6
-
-
-
-
-
-
-
-
-
-
-
-<hr>
 
 ## **Oplæg omkring Arrays**
 
 Du får et oplæg, der sætter dig ind i, hvordan man arbejder med Arrays i Javascript.
 
 ## **Information på nettet om Arrays**
-
-Her vil jeg indsætte links til sider, der forklarer **hvordan man arbejder med arrays i Javascript**.
-Hvis du finder nogle gode sider, så sig endelig til. Jeg tilføjer dem gerne her.
 
 **OBS:** Når der her linkes til en kilde på nettet, betyder det IKKE nødvendigvis, at du skal gå ind og lav alt hvad de beder dig om (det kunne jo være en kæmpe tutorial der tager flere dage). Brug siderne som opslagsværk.
 
@@ -175,45 +162,49 @@ Du får mere om løkker en anden dag, men hvis du har mod på det allerede i dag
 ## **Øvelser - Arrays**
 
 
-## `Øvelse:` - Arrays 1 - W3 Schools
-
-Selvom man på W3 Schools kan afvikle javascript direkte på deres side, skal du sørge for, at løsningen ligger i en fil på din harddisk (og i sidste ende som afleveringer på GitHub og Office 365).
-
-* **Øvelse - Arrays 1.1** <br>
-https://www.w3schools.com/js/exercise.asp?filename=exercise_arrays1
-
-
-* **Øvelse - Arrays 1.2** <br>
-https://www.w3schools.com/js/exercise.asp?filename=exercise_arrays2
-
-
-* **Øvelse - Arrays 1.3** <br>
-https://www.w3schools.com/js/exercise.asp?filename=exercise_arrays3
-
-
-* **Øvelse - Arrays 1.4** <br>
-https://www.w3schools.com/js/exercise.asp?filename=exercise_arrays4
-
-
-* **Øvelse - Arrays 1.5** <br>
-https://www.w3schools.com/js/exercise.asp?filename=exercise_arrays5
+## `Øvelse:` Arrays 1 
+1. Opret et nyt dokument i dit Bootcamp repository kaldet **arrays.js**
+1. Alle array opgaverne løses i det dokument
 
 
 
-## `Øvelse:` Arrays 
+## `Øvelse:` Arrays 2
+1. Opret et array kaldet `frugter` tildel det elementerne "Pære", "Æble" og "Banan"
+1. Udskriv indholdet af `frugter` i konsollen
 
-*Se bort fra scope (const, var, let, osv).*
 
+
+## `Øvelse:` Arrays 3
+1. Via arrayet `frugter` fra øvelse 2, udskriv kun "Æble" i konsollen
+
+
+
+## `Øvelse:` Arrays 4
+1. Med arrayet fra øvelse 2, ret det første element **efter arrayet er oprettet**, så indholdet nu er "Fersken".
+1. Udskriv hele `frugter` arrayet i konsollen
+
+
+
+## `Øvelse:` Arrays 5
+1. Ved hjælp af **length** egenskaben, udskriv antallet af elementer i `frugter` arrayet i konsollen
+
+
+
+## `Øvelse:` Arrays 6
+1. Ved hjælp af **length** egenskaben, tilføj et element med værdien "Appelsin" til arrayet `frugter` så der ikke er **huller** i arrayets elementer
+1. Udskriv alt indholdet `frugter` i konsollen
+
+
+
+## `Øvelse:` Arrays 7
 Denne øvelse omhandler **arrays inden i et array** - også kaldet **multi-dimensionelle arrays**.
-
-1. Opret et array i variablen `personer`,  som indeholder minimum **3 andre arrays**. <br><br>
-**De 3 arrays** skal indeholde to oplysninger: <br>
-`fornavn` og `efternavn`  (bare vælg nogle tilfældige navne i første omgang)
+1. Opret et array i variablen `personer`, som indeholder minimum **3 andre arrays**. <br><br>
+**De 3 arrays** skal indeholde minimum to oplysninger: <br>
+`navn` og `alder` 
 
 1. Udskriv `personer` variablen i konsollen.
 
-1. Hvis strukturen ser korrekt ud, så **ret navnene og tilføj nye navne**, så dine inderste arrays indeholder **navnene på mimimum 2 elever fra hvert hold** på din årgang, dvs. i alt **6 elever**.
 
 ---
 
-[tilbage til Bootcamp forsiden](http://github.com/rts-cmk-WI81/README.md)
+[tilbage til Bootcamp forsiden](README.md)
