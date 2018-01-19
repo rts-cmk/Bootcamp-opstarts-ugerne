@@ -40,7 +40,7 @@ Målene for de første par uger, her er der tale om introduktion til, og opsamli
 
 
 # Betingelser 
->link til dokument ... når det er tid ;) 
+>19/01-2018 [Betingelser](./conditions.md)
 
 
 # Operatorer 
