@@ -91,8 +91,8 @@ console.log(bynavn);
 
 ## `Øvelse:` Variabler 6
 1. Som i øvelse 5 oprettes to variabler kaldet `x` og `y` med værdierne **5** og **10**
-1. opret en tredje variabel kaldet `y`, som tildes summen af `x` + `y`
-1. Udskriv indholdet af `y` i konsollen
+1. opret en tredje variabel kaldet `z`, som tildes summen af `x` + `y`
+1. Udskriv indholdet af `z` i konsollen
 
 
 
