@@ -27,6 +27,11 @@ Målene for de første par uger, her er der tale om introduktion til, og opsamli
 
 **Det er primært de første 5 punkter vi ser på, dag 1.**
 
+
+*Video optagelser/live stream, af oplæg kan findes på [YouTube.com/jabarts](https://youtube.com/jabarts), efterhånden som de afholdes*
+
+
+
 # Om Uddannelsen, regler og husorden
 >18/01-2018 [Om uddannelsen, regler og husorden](./regler-og-husorden.md)
 
@@ -44,11 +49,11 @@ Målene for de første par uger, her er der tale om introduktion til, og opsamli
 
 
 # Operatorer 
->19/01-2018 [Operatorer](./operatorer.md)
+>20/01-2018 [Operatorer](./operatorer.md)
 
 
 # Løkker 
->link til dokument ... når det er tid ;) 
+>20/01-2018 [Løkker](./loops.md)
 
 
 # Funktioner 
@@ -65,3 +70,10 @@ Målene for de første par uger, her er der tale om introduktion til, og opsamli
 
 # HTML, javascript og NodeJS
 >link til dokument ... når det er tid ;) 
+
+
+
+# Hygge opgaver
+Hvis man bliver hurtigt færdig med dagens opgaver, så er her en samling sjove små opgaver der forhåbentligt gerne skulle give lidt udfordringer.
+
+> [Hyggeopgaver](./hygge-opgaver.md)
