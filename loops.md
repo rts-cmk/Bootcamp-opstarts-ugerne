@@ -86,14 +86,6 @@ farver.forEach(function(farve){
    console.log(farve);
 });
 ```
-Den kode oven over, og koden her under gør præcis det samme, forskellen 
-```javascript
-let farver = ['rød','grøn','blå'];
-farver.forEach(farve => {
-   console.log(farve);
-});
-```
-
 
 ```javascript
 let farver = ['rød','grøn','blå'];
