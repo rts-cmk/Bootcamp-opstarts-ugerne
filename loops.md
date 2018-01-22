@@ -67,7 +67,7 @@ for(let i = 0; i < 10; i++){
 
 ## ```Øvelse:``` Løkker 5
 1. Opret et array med ugens 7 dage
-1. benyt en for løkke til at løbe igennem arrayet og udskrive her af dagene.
+1. benyt en for løkke til at løbe igennem arrayet og udskrive hver af dagene.
 
 
 
