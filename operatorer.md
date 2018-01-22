@@ -79,8 +79,8 @@ _betingelserne kunne være 2 variabler med tal, hvor f.eks. det ene er mindre en
 
 
 ## ```Øvelse:``` Operatorer 4 
-Gør som i øvelse 3, men denne gang er kravet at bare 1 af betingelserne skal være opfyldt.
-
+Gør som i øvelse 4, men denne gang er kravet at bare 1 af betingelserne skal være opfyldt.
+ 
 
 
 ## ```Øvelse:``` Operatorer 6 
