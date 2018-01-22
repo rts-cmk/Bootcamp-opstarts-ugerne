@@ -57,7 +57,7 @@ Målene for de første par uger, her er der tale om introduktion til, og opsamli
 
 
 # Funktioner 
->link til dokument ... når det er tid ;) 
+>23/01-2018 [Løkker](./loops.md)
 
 
 # Callbacks & Promises
