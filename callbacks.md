@@ -75,7 +75,7 @@ function forberedData(grundData, next) {
       }
    }
    if (behandletData.length > 0) {
-      next(behandletData);
+      return behandletData;
    }
 }
 
@@ -140,9 +140,8 @@ console.log("Denne kode linje burde være den sidste.");
 
 ### Opgave
 Afprøv ovenstående kode, og forsøg med egne ord at beskrive hvad det er der sker.
-Bryd kode eksemplet op i små bidder og benyt markdown til at beskrive det.
-
 Her er det en rigtig god ide at få en snak med sidemanden om hvad koderne gør. 
+
 Skriv kommentarer ud for hver enkelt linje, som i følgende eksempel 
 ```javascript
 // her defineres funktionen getData
