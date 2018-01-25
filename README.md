@@ -66,7 +66,7 @@ Målene for de første par uger, her er der tale om introduktion til, og opsamli
 >25/01-2018 [Promises](./promises.md)
 
 # fetch 
->link til dokument ... når det er tid ;) 
+>26/01-2018 [fetch](./fetch.md)
 
 
 # HTML, javascript og NodeJS
