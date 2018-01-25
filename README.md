@@ -61,8 +61,7 @@ Målene for de første par uger, her er der tale om introduktion til, og opsamli
 
 
 # Callbacks & Promises
->25/01-2018 [Callbacks](./callbacks.md)
-
+>25/01-2018 [Callbacks](./callbacks.md)<br>
 >25/01-2018 [Promises](./promises.md)
 
 # fetch 
