@@ -91,7 +91,7 @@ Når du har udskrevet data fra en person på siden, så skal du løbe igennem `r
 
 Når vi benytter `fetch()` til at hente data fra eksterne kilder, så kan det gå galt med kaldet, og det bliver vi nødt til at kunne lave lidt simpel fejl håndtering.
 
-1. Tilføj `.catch()` funktionen, kig meget gerne på eksemplerne fra i går (promises.md)
+1. Tilføj `.catch()` funktionen, kig meget gerne på eksemplerne fra i går [promises.md](./promises.md)
 1. console.log den fejlbesked, der bliver sendt til `.catch()` funktionen
 1. Afprøv at `.catch()` funktionen kaldes, ved at give `fetch()` en forkert URL og se beskeden i konsollen
 
