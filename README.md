@@ -68,6 +68,8 @@ Målene for de første par uger, her er der tale om introduktion til, og opsamli
 # fetch 
 >26/01-2018 [fetch](./fetch.md)
 
+>27/01-2018 Website via ekstern API, link til opgave ligger på slack i #bootcamp kanalen
+
 
 # HTML, javascript og NodeJS
 >link til dokument ... når det er tid ;) 
