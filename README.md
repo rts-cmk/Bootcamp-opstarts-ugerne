@@ -72,7 +72,7 @@ Målene for de første par uger, her er der tale om introduktion til, og opsamli
 
 
 # HTML, javascript og NodeJS
->link til dokument ... når det er tid ;) 
+>01/02-2018 [NodeJS server](./NodeJS-server.md)
 
 
 
