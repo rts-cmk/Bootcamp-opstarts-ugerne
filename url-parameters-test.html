@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Document</title>
+   <style>
+      a {
+         padding: 1px 3px;
+      }
+
+      a:hover {
+         color: #f00;
+      }
+   </style>
+</head>
+
+<body>
+   <a href="url-parameters-test.html">RESET</a>
+   <div id="content"></div>
+
+   <script>
+      // https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
+      function getParameterByName(name, url) {
+         if (!url) url = window.location.href;
+         name = name.replace(/[\[\]]/g, "\\$&");
+         var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+            results = regex.exec(url);
+         if (!results) return null;
+         if (!results[2]) return '';
+         return decodeURIComponent(results[2].replace(/\+/g, " "));
+      }
+
+
+      let value = getParameterByName('page');
+      if (value != null) {
+         console.log(value);
+      } else {
+         console.log('Ingen parameter i URL');
+      }
+
+
+      // opret 5 knapper, 
+      for (let i = 1; i <= 5; i++) {
+         let a = document.createElement('a');
+         a.textContent = 'Knap: ' + i;
+         a.setAttribute('href', "?page=" + i);
+         document.getElementById('content').appendChild(a);
+      }
+   </script>
+
+</body>
+
+</html>

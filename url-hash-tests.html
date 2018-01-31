@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Document</title>
+</head>
+
+<body>
+   <button id="reload">RELOAD</button>
+
+   <div id="content"></div>
+
+   <script>
+      // tilføj klik funktionen til RELOAD knap
+      // eksempel der viser koden, hvis knappen ligger i DOM
+      document.getElementById('reload').addEventListener('click', (event) => {
+         window.location.replace(window.location.href.split('#')[0]);
+      });
+
+
+      // tilføj en knap der kan tømme HASH, men uden en genindlæsning af siden
+      // eksempel der viser koden, hvis knappen oprettes via JavaScript
+      let clear = document.createElement('button');
+      clear.textContent = 'CLEAR';
+      clear.addEventListener('click', function () {
+         location.hash = '';
+      });
+      document.getElementById('content').appendChild(clear);
+
+
+
+
+      // opret 5 knapper, 
+      for (let i = 0; i <= 5; i++) {
+         let button = document.createElement('button');
+         button.textContent = 'Knap: ' + i;
+         button.setAttribute('data-content', "value-" + i);
+         button.addEventListener('click', (event) => {
+            location.hash = event.target.dataset['content'];
+         });
+         // skyd de 5 knapper ind i DOM
+         document.getElementById('content').appendChild(button);
+      }
+
+      // HÅNDTER HASH 
+
+      // definer den funktion der skal udføres baseret på #hash i URL
+      function handleUrlHash() {
+         if (location.hash != "") {
+            console.log(location.hash);
+         } else {
+            console.log('Ingen værdi i URL Hash');
+         }
+      }
+
+      // få browseren til at lytte på ændringer i #hash (OBS, begrænset support.. IE8+)
+      window.onhashchange = handleUrlHash;
+
+      // hvis der altid skal udføres en handling baseret på værdi i #hash
+      handleUrlHash();
+   </script>
+
+</body>
+
+</html>
