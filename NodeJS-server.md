@@ -230,3 +230,16 @@ prøv at ret i filen app.js imens serveren kører, og gem dokumentet, så skulle
 [nodemon] starting `node app.js`
 ```
 
+
+--- 
+ 
+ ## opgave 2
+
+ Sørg for at få serveren sat op så den benytter både **morgan** og **nodemon**.
+ 
+ Udbyg, serveren med 2 routes mere, du må selv vælge hvad de returnerer, men du skal ende ud med at have ialt 4 routes `/api/test` og `/api/profil` er to af dem, og de sidste to finder du selv på.
+
+ Derefter tilføjes et eller flere html dokumenter hvor i du via en fetch henter og udskriver fra dine to nye routes.
+ alle html dokumenterne skal have  links til hinanden, så det bliver et mindre website med lidt navigation.
+
+ Udvid gerne med et stylesheet.
