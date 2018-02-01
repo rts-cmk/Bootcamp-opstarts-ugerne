@@ -2,6 +2,8 @@
 Hvordan virker **NodeJS**, når det skal fungere som en JavaScript server?
 
 * Start med at oprette et nyt repo på github, kald **express-test-repo**, klon til desktop og åben det i VScode.
+ 
+Denne gang er det meget vigtigt at huske **add gitignore Node** 
 
 ---
 
@@ -156,4 +158,75 @@ der må ikke være mellemrum i navnet på en nøgle, sæt `_` (underscore) hvis 
 
 
 Når din route er sat op, og du kan se dens resultat direkte i browseren, så skal din HTML side kalde på din route og du skal udskrive profil-data i noget passende HTML.
+
+
+
+---
+
+---
+
+---
+
+
+## log requests på vores server...
+Det kunne være rigtig smart at få besked om alle de requests der sker på vores server, så vi kan holde øje med om vi har  skrevet korrekt eller om andet  er gået  galt undervejs.
+
+Til det kan vi  benytte et modul kaldet **morgan**, som kan auto-console-logge de forespørgelser der  sker til serveren.
+
+start med at installere morgan ved at skrive `npm install morgan --save` i konsollen og  vent til den er hentet ned.
+
+Derefter  tilføjes følgende kode til **app.js** lige efter linje 2
+
+```javascript
+const logger = require('morgan');
+app.use(logger('dev'));
+```
+
+Det er primært "development" log info vi er interesseret i, så derfor står der `dev` i `logger()` funktionen
+
+Hvis alt er sat op som det skal, og du har genstartet serveren, så gå ud i browseren og opdater siden. Nu burde der være en ekstra linje i VScode konsollen, der ligner dette: `GET / 200 8.833 ms - 554`
+
+Her kan vi se der har været en request af typen **GET** og svaret var **200**, det tog **8,833 millisekunder** og der blev leveret **554 bytes**.
+
+---
+
+
+## server auto stop/start...
+
+I har måske allerede opdaget det  kan være svært at huske at genstarte serveren hver gang I ændrer på filerne...
+
+Der findes værktøjer som kan holde øje med hvornår en fil ændres, og automatisk genstarte scriptet.
+
+Modulet kaldes **nodemon** - `node mon` ikke `no demon` ;) 
+
+Det skal installeres på en lidt speciel måde, da vi netop kun er afhængige af funktionaliteten imens vi udvikler. Skriv `npm install nodemon --save-dev` så vil modulet  knyttes til projektet som et develepment-dependency 
+
+
+Når det er hentet og installert, skal vi tilpasse **package.json** så vi kan benytte **nodemon** til at genstarte serveren.
+
+
+I **package.json** findes elementet **scripts**, og det tilpasses så der står følgende:
+```javascript
+   "scripts": {
+      "start": "nodemon app.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+``` 
+det er "start" der tilføjes, hvor vi beder  den om at udføre kommandoen `nodemon app.js` hvis vi skriver `npm start` i konsollen.
+
+Så gem alle filer, og sørg for serveren er stoppet. 
+
+Nu vil vi starte serveren igen, og benytte nodemon, så nu tastes `npm start` istedet for `node app` og der burde meget gerne komme følgende tekst i konsollen:
+```
+[nodemon] 1.14.11
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching: *.*
+[nodemon] starting `node app.js`
+``` 
+
+prøv at ret i filen app.js imens serveren kører, og gem dokumentet, så skulle nodemon sørge for at genstarte serveren automatisk
+```
+[nodemon] restarting due to changes...
+[nodemon] starting `node app.js`
+```
 
