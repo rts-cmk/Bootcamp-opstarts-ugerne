@@ -73,7 +73,7 @@ Målene for de første par uger, her er der tale om introduktion til, og opsamli
 
 # HTML, javascript og NodeJS
 >01/02-2018 [NodeJS server](./NodeJS-server.md)
-
+>01/02-2018 [NodeJS server, del 2](./NodeJS-server-del2.md)
 
 
 # Hygge opgaver
